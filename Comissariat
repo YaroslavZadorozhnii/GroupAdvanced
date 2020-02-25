@@ -1,7 +1,7 @@
 package com.gmail.docfordja;
 
 import java.util.Arrays;
-// ОТбирает пригодных к службе студентов, сортирует
+// Отбирает пригодных к службе студентов, сортирует
 public class Comissariat implements WarComissariat {
 
 	@Override
@@ -17,7 +17,6 @@ public class Comissariat implements WarComissariat {
 			}
 		}
 		Student[] goToArmy = new Student[num];
-		System.out.println(students.length);
 		for (int i = 0; i < students.length; i++) {
 			if (students[i] != null) {
 				if (students[i].isSex() == true && students[i].getAge() > 17 && students[i].getAge() < 28)
