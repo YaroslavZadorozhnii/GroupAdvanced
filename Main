@@ -88,7 +88,6 @@ public class Main {
 		System.out.println("Формирую список призывников и вывожу его:");
 		Comissariat comissariat = new Comissariat();
 		Student[] studentx = comissariat.comone(studentGroup);
-		System.out.println(studentx.length);
 		for (int i = 0; i < studentx.length; i++) {
 			try {
 				if (studentq[i] != null) {
